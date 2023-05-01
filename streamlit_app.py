@@ -16,4 +16,4 @@ st.sidebar.subheader("1.please chose which app you want to operate")
 sidecont = st.container()
 sidecont.write('menu')
 with st.sidebar:
-  sidecont(greeting="hello")
+  sidecont.write('hello')
