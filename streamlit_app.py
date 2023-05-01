@@ -9,3 +9,8 @@ st.balloons()
 
 with st.spinner('Wait for it...'):    
   time.sleep(10)
+sidecont = st.container
+st.sidebar().title('this is inside the sidebar')
+with st.sidebar:
+  sidecont(greeting="hello")
+sidecont.write('menu')
