@@ -1,5 +1,15 @@
 import streamlit as st
 import time
+import os, sys
+import streamlit as st
+import streamlit.components.v1 as components
+import numpy
+import torch
+import openai
+import pandas
+from torch import nn, optim
+from torch.utils.data import DataLoader
+from collections import Counter
 
 st.title('🎈 Divya\'s test app')
 
@@ -13,16 +23,7 @@ with st.spinner('Wait for it...'):
 # Sample openai with streamlit
 # April 2023
 #--------------------------------------------------------------------------------------------------------
-import os, sys
-import streamlit as st
-import streamlit.components.v1 as components
-import numpy
-import torch
-import openai
-import pandas
-from torch import nn, optim
-from torch.utils.data import DataLoader
-from collections import Counter
+
 
 datapath = '/home/marcbohlen/data/'
 authpath = datapath + 'auth/'
