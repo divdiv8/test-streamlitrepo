@@ -16,4 +16,11 @@ st.sidebar.subheader("1.please chose which app you want to operate")
 sidecont = st.container()
 sidecont.write('menu')
 with st.sidebar:
-  sidecont.write('hello')
+  st.header("huawei apps store：")
+  st.subheader("1.please chose which app you want to operate")
+  st.radio('select one:',[1,2])
+  
+col1, col2 = st.columns(2)
+col1.write("This is column 1")
+col2.write("This is column 2")
+  
