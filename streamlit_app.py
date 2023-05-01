@@ -9,8 +9,8 @@ with st.spinner('Wait for it...'):
   time.sleep(10)
 
   
-st.sidebar.header(‘huawei apps store：’)
-st.sidebar.subheader(‘1.please chose which app you want to operate’)
+st.sidebar.header("huawei apps store：")
+st.sidebar.subheader("1.please chose which app you want to operate")
 
 side = st.sidebar('side')
 sidecont = st.container()
