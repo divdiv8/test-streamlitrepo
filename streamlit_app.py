@@ -12,8 +12,8 @@ with st.spinner('Wait for it...'):
 st.sidebar.header("huawei apps store：")
 st.sidebar.subheader("1.please chose which app you want to operate")
 
-side = st.sidebar('side')
+# side = st.sidebar('side')
 sidecont = st.container()
 sidecont.write('menu')
-with side:
+with st.sidebar:
   sidecont(greeting="hello")
