@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import streamlit_option_menu
+
 
 st.title('🎈 Divya\'s test app')
 
