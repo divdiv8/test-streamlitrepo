@@ -37,7 +37,6 @@ col6.write("This is column 2")
 col2.write("This is column 2")
 col2.write("This is column 2")
 
-import streamlit as st
 
 # Create a list of the navigation bar items
 nav_items = ["Home", "About", "Contact"]
