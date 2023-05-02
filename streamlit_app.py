@@ -2,10 +2,6 @@ import streamlit as st
 import time
 
 
-st.title('🎈 BTS')
-
-st.write('Hello world!')
-st.write('experimenting with this app as we learn streamlit')
 
 
 # Create a list of the navigation bar items
@@ -42,6 +38,10 @@ st.markdown("""
   }
 </style>
 """, unsafe_allow_html=True)
+st.title('🎈 BTS')
+
+st.write('Hello world!')
+st.write('experimenting with this app as we learn streamlit')
 
 
 with st.spinner('Wait for it...'):     #to wait while loading animation
